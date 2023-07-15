@@ -1,0 +1,23 @@
+{
+  "name": "assurity",
+  "version": "1.0.0",
+  "description": "Technical assignment for assessment with Assurity Consulting.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Joshua James 'Owa' Perocho",
+  "license": "ISC",
+  "devDependencies": {
+    "@cucumber/cucumber": "^9.3.0",
+    "cucumber": "^6.0.7",
+    "pactum": "^3.4.1"
+  },
+  "dependencies": {
+    "chai": "^4.3.7",
+    "express": "^4.18.2",
+    "mocha": "^10.2.0",
+    "nock": "^13.3.2",
+    "supertest": "^6.3.3"
+  }
+}
