@@ -4,8 +4,9 @@
   "description": "Technical assignment for assessment with Assurity Consulting.",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "cucumber": "cucumber-js -f @cucumber/pretty-formatter --format-options '{\"theme\": THEME_JSON.json}'"
   },
+  "type": "commonjs",
   "author": "Joshua James 'Owa' Perocho",
   "license": "ISC",
   "devDependencies": {
@@ -14,6 +15,7 @@
     "pactum": "^3.4.1"
   },
   "dependencies": {
+    "@cucumber/pretty-formatter": "^1.0.0",
     "chai": "^4.3.7",
     "express": "^4.18.2",
     "mocha": "^10.2.0",
