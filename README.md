@@ -11,7 +11,7 @@ We have multiple options in order to clone the repository into our local machine
 2. Click on the **Code** button.
 ![Cloning via Download](images/clone.png)
 3. Then click on **Download ZIP**.
-3. Unzip the package and open the folder using any IDE of your choice.
+4. Unzip the package and open the folder using any IDE of your choice.
 
 ## 2. Cloning via Git.
 1. Check if your device already has Git via this command.
@@ -20,22 +20,27 @@ git --version
 ```
 2. If your device does not have git installed, please refer to this [git installation document](https://git-scm.com/book/en/v2/Getting-Started-Installing-Git).
 3. Once git is installed, navigate to the [Assurity-APIAutomation repository](https://github.com/perochowa-tsm/Assurity-APIAutomation).
-2. Click on the **Code** button then click on the copy button beside the URL.
+4. Click on the **Code** button then click on the copy button beside the URL.
 ![Cloning via HTTPS](images/clone.png)
-3. Open the IDE of your choice and then enter the git clone command. 
+5. Open the IDE of your choice and then enter the git clone command. 
 ```
 git clone https://github.com/perochowa-tsm/Assurity-APIAutomation.git
 ```
+It should look a little something like this. 
+![Git Clone](images/gitClone.png)
 
 # Installation
 Note: If your device does not have Node.js and npm install, you can install these via accessing these links. 
 [Node.js](https://nodejs.org/en/download)
 [npm](https://docs.npmjs.com/downloading-and-installing-node-js-and-npm)
 
-Once the repository has been successfully cloned, navigate into the package directory using the command below. 
+Once the repository has been successfully cloned, navigate into the package directory using the command below. Then double-check the current directory using 'pwd'
 ```
 cd Assurity-APIAutomation
 ```
+It should look a little something like this. 
+![Change Directory](images/changeDirectory.png)
+
 Then we can now install the necessary dependencies with the command below. 
 ```
 npm i
