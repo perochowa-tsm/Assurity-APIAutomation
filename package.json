@@ -4,7 +4,7 @@
   "description": "Technical assignment for assessment with Assurity Consulting.",
   "main": "index.js",
   "scripts": {
-    "cucumber": "cucumber-js -f @cucumber/pretty-formatter --format-options '{\"theme\": THEME_JSON.json}'"
+    "testAll": "cucumber-js --tags=@all --publish"
   },
   "type": "commonjs",
   "author": "Joshua James 'Owa' Perocho",
