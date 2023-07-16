@@ -70,7 +70,7 @@ npx cucumber-js --tags=@thirdCriteria --publish
 
 # Reporting
 There will be a report generated at the terminal where you ran the tests. Moreover, the built in Cucumber report can be accessed at the link provided at the end of each run. (i.e. "https://reports.cucumber.io/reports/...")
-![Successful Run](images/successfulRun..png)
+![Successful Run](images/successfulRun.png)
 
 The report looks like this. 
 ![Sample Report](images/sampleReport.png)
