@@ -32,7 +32,11 @@ Note: If your device does not have Node.js and npm install, you can install thes
 [Node.js](https://nodejs.org/en/download)
 [npm](https://docs.npmjs.com/downloading-and-installing-node-js-and-npm)
 
-Once the repository has been successfully cloned, we can now install the necessary dependencies with the command below. 
+Once the repository has been successfully cloned, navigate into the package directory using the command below. 
+```
+cd Assurity-APIAutomation
+```
+Then we can now install the necessary dependencies with the command below. 
 ```
 npm i
 ```
